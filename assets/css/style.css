@@ -1,21 +1,21 @@
 /* Base */
-:root { --bg:#0b1220; --card:#121a2b; --muted:#9fb0d0; --text:#e6edf7; --brand:#4ea1ff; --border:#1e2a44; --link:#8ec4ff; }
+:root { --bg:#ffffff; --card:#ffffff; --muted:#6b7280; --text:#111827; --brand:#111827; --border:#e5e7eb; --link:#2563eb; }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'Noto Sans SC',system-ui,-apple-system,Segoe UI,Roboto,Arial,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'Noto Sans SC',system-ui,-apple-system,Segoe UI,Roboto,Arial,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
 .container{max-width:980px;margin:0 auto;padding:0 16px}
-.site-header{border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(16,26,45,.9),rgba(16,26,45,.6))}
+.site-header{border-bottom:1px solid var(--border);background:#ffffffcc;backdrop-filter:saturate(180%) blur(8px);position:sticky;top:0;z-index:10}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-.brand{color:#fff;text-decoration:none;font-weight:700}
+.brand{color:var(--brand);text-decoration:none;font-weight:700}
 .nav{display:flex;gap:10px}
-.nav a{color:var(--link);text-decoration:none;padding:6px 10px;background:#0e1627;border:1px solid var(--border);border-radius:6px}
-.nav a:hover{border-color:var(--brand);color:#fff}
-.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px;margin:18px 0;box-shadow:0 1px 0 rgba(0,0,0,.2)}
+.nav a{color:var(--link);text-decoration:none;padding:6px 10px;background:#f3f4f6;border:1px solid var(--border);border-radius:6px}
+.nav a:hover{border-color:#93c5fd;background:#eef2ff}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin:18px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .pill-list{display:flex;flex-wrap:wrap;gap:8px;padding-left:0;list-style:none}
-.pill-list li{padding:6px 10px;border-radius:999px;border:1px solid var(--border);background:#0e1627}
+.pill-list li{padding:6px 10px;border-radius:999px;border:1px solid var(--border);background:#f9fafb}
 .news-list{margin:0;padding-left:18px}
 .news-list .muted{color:var(--muted);list-style:none;padding-left:0;margin-left:-18px}
 .pub-list{margin:0;padding-left:18px}
-.site-footer{border-top:1px solid var(--border);color:var(--muted);padding:16px 0 40px}
+.site-footer{border-top:1px solid var(--border);color:var(--muted);padding:24px 0 40px}
 .site-footer a{color:var(--link)}
 @media (max-width:640px){.header-inner{flex-direction:column;align-items:flex-start;gap:8px}}
 
