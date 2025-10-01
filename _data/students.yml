@@ -1,0 +1,10 @@
+current:
+  - name: Student A
+    degree: Ph.D. student
+  - name: Student B
+    degree: M.S. student
+alumni:
+  - name: Alumni C
+    next: Faculty position at a university
+
+

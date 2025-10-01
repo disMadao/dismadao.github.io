@@ -1,0 +1,67 @@
+---
+layout: default
+title: Home
+---
+
+<section id="interests" class="card">
+  <h2>Research Interests</h2>
+  <ul class="pill-list">
+    <li>Datacenter networking</li>
+    <li>Distributed systems (ML systems, graph processing)</li>
+    <li>Digital twins</li>
+    <li>Internet protocols</li>
+  </ul>
+  <p class="muted">Layout inspired by <a href="https://cs.nju.edu.cn/tianchen/index.htm" target="_blank" rel="noopener">Chen Tian</a> and <a href="https://mengqingkai.github.io/" target="_blank" rel="noopener">Qingkai Meng</a>.</p>
+</section>
+
+<section id="prospective" class="card">
+  <h2>Prospective Students</h2>
+  <p>We welcome motivated students with solid background and strong interests in distributed systems. Mathematical modeling/analysis capability and solid programming skills are a plus. Please email your CV.</p>
+</section>
+
+<section id="news" class="card">
+  <h2>News</h2>
+  <ul class="news-list">
+    {% for item in site.data.news %}
+      <li>[{{ item.date }}] {{ item.text }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="publications" class="card">
+  <h2>Publications</h2>
+  <ul class="pub-list">
+    {% for p in site.data.publications %}
+      <li>{{ p.title }}, {{ p.venue }} {{ p.year }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="students" class="card">
+  <h2>Students</h2>
+  <h3>Current</h3>
+  <ul>
+    {% for s in site.data.students.current %}
+      <li>{{ s.name }} - {{ s.degree }}</li>
+    {% endfor %}
+  </ul>
+  <h3>Alumni</h3>
+  <ul>
+    {% for s in site.data.students.alumni %}
+      <li>{{ s.name }} - {{ s.next }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="services" class="card">
+  <h2>Services</h2>
+  <p>Program committees, organizing services, awards, and more.</p>
+</section>
+
+<section id="bio" class="card">
+  <h2>Biography</h2>
+  <p>Brief education and work history, research areas, and selected achievements.</p>
+</section>
+
+
+

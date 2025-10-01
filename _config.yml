@@ -1,0 +1,11 @@
+title: dismadao.github.io
+description: Personal Homepage
+url: "https://dismadao.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+plugins: []
+exclude:
+  - README.md
+  - readme.md
+  - DEPLOY.md
