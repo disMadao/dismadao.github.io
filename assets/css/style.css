@@ -19,5 +19,26 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
 .site-footer a{color:var(--link)}
 @media (max-width:640px){.header-inner{flex-direction:column;align-items:flex-start;gap:8px}}
 
+/* Profile Section */
+.profile-header{display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:start;margin-bottom:24px}
+.profile-photo img{width:180px;height:180px;border-radius:12px;object-fit:cover;border:1px solid var(--border)}
+.profile-info h2{margin-top:0}
+
+/* Student Grid */
+.student-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:20px;margin-top:16px}
+.student-card{text-align:center}
+.student-card img{width:140px;height:140px;border-radius:50%;object-fit:cover;border:2px solid var(--border);margin-bottom:8px}
+.student-card h3{font-size:1rem;margin:8px 0 4px;font-weight:600}
+.student-card p{font-size:0.875rem;color:var(--muted);margin:0}
+.student-photo-placeholder{width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);display:flex;align-items:center;justify-content:center;color:#fff;font-size:3rem;font-weight:700;margin:0 auto 8px;border:2px solid var(--border)}
+
+@media (max-width:640px){
+  .profile-header{grid-template-columns:1fr;gap:16px}
+  .profile-photo img{width:120px;height:120px;margin:0 auto;display:block}
+  .student-grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:16px}
+  .student-card img,.student-photo-placeholder{width:100px;height:100px}
+  .student-photo-placeholder{font-size:2.5rem}
+}
+
 
 
