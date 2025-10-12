@@ -1,0 +1,20 @@
+# Jekyll build files
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local development files - 不同步到 GitHub
+Gemfile
+start-local.bat
+start-local.sh
+start-local-*.bat
+LOCAL_DEVELOPMENT.md
+.gitignore.example
+
