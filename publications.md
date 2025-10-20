@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 <section class="card">
-  <h2>Publications</h2>
+  <h2>Selected Publications</h2>
   <div class="pub-list">
     {% for p in site.data.publications %}
       <div class="pub-item">
