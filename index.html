@@ -46,7 +46,9 @@ title: Home
   <h2>News</h2>
   <ul class="news-list">
     {% for item in site.data.news %}
-      <li>[{{ item.date }}] <span class="news-category">{{ item.category }}:</span> {{ item.text }}</li>
+      <li>
+        [{{ item.date }}] <span class="news-category">{{ item.category }}:</span> {{ item.text }}{% if item.venue %} accepted by <strong>{{ item.venue }}</strong>.{% endif %}
+      </li>
     {% endfor %}
   </ul>
 </section>

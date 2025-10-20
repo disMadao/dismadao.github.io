@@ -1,32 +1,71 @@
 - date: 2025-10
   category: Award
-  text: I am honored to receive the 2025 ACM SIGCOMM China Rising Star Award, ranking first among three recipients nationwide.
-# - date: 2025-07
-#   category: Paper
-#   text: BIAN accepted by SIGCOMM 2025.
-# - date: 2025-06
-#   category: Paper
-#   text: Sectric accepted by VLDB 2025.
-# - date: 2025-05
-#   category: Paper
-#   text: HotPrefix accepted by SIGMOD 2026.
-# - date: 2025-04
-#   category: Paper
-#   text: Astral accepted by SIGCOMM 2025.
-# - date: 2025-04
-#   category: Paper
-#   text: Hermes accepted by ATC 2025.
-# - date: 2025-04
-#   category: Award
-#   text: PrioPlus named EuroSys 2025 Best Student Paper.
-# - date: 2024-12
-#   category: Paper
-#   text: One paper accepted by INFOCOM 2025.
-# - date: 2024-08
-#   category: Paper
-#   text: BifrostX accepted by TON.
-# - date: 2024-07
-#   category: Paper
-#   text: Pyrrha and P4RTC accepted by NSDI 2025.
+  text: The 2025 ACM SIGCOMM China Rising Star Award, ranking first among three recipients nationwide.
+
+# Publications
+- date: 2025
+  category: Paper
+  text: "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale"
+  venue: ACM SIGCOMM 2025
+- date: 2025
+  category: Paper
+  text: "eTran: Extensible Kernel Transport with eBPF"
+  venue: USENIX NSDI 2025
+- date: 2025
+  category: Paper
+  text: "ScalaTap: Scalable Outbound Rate Limiting in Public Cloud"
+  venue: IEEE INFOCOM 2025
+- date: 2024
+  category: Paper
+  text: "BCC: Re-architecting Congestion Control in DCNs"
+  venue: IEEE INFOCOM 2024
+- date: 2024
+  category: Paper
+  text: "Explicit Dropping Notification in Data Centers"
+  venue: IEEE INFOCOM 2024
+- date: 2024
+  category: Paper
+  text: "Switch-assistant Loss Recovery for RDMA Transport Control"
+  venue: IEEE/ACM ToN 2024
+- date: 2024
+  category: Paper
+  text: "Revisiting Congestion Control for Lossless Ethernet"
+  venue: USENIX NSDI 2024
+- date: 2024
+  category: Paper
+  text: "When Parallel Permissioned Blockchain Meets Network Congestion in Datacenters"
+  venue: USENIX NSDI 2024 (Poster)
+- date: 2024
+  category: Paper
+  text: "Predictable Host Networking in Data Centers: Challenges, Technologies and Future Directions"
+  venue: IEEE Network Magazine 2024
+- date: 2023
+  category: Paper
+  text: "Revisiting Congestion Detection in Lossless Networks"
+  venue: IEEE/ACM ToN 2023
+- date: 2023
+  category: Paper
+  text: "The Power of Age-based Reward in Fresh Information Acquisition"
+  venue: IEEE INFOCOM 2023
+- date: 2022
+  category: Paper
+  text: "Demystifying and Mitigating TCP Capping"
+  venue: IEEE/ACM IWQoS 2022
+- date: 2022
+  category: Paper
+  text: "CrossDBT: An LLVM-Based User-Level Dynamic Binary Translation Emulator"
+  venue: Euro-Par 2022
+- date: 2021
+  category: Paper
+  text: "Lightning: A Practical Building Block for RDMA Transport Control"
+  venue: IEEE/ACM IWQoS 2021
+- date: 2021
+  category: Paper
+  text: "RBA: Adaptive TCP Receive Buffer Sizing"
+  venue: IEEE ISCC 2021
+- date: 2021
+  category: Paper
+  text: "Congestion Detection in Lossless Networks"
+  venue: ACM SIGCOMM 2021
 
 
