@@ -1,20 +1,32 @@
-- date: 2025-07
-  text: Paper BIAN accepted by SIGCOMM 2025.
-- date: 2025-06
-  text: Paper Sectric accepted by VLDB 2025.
-- date: 2025-05
-  text: Paper HotPrefix accepted by SIGMOD 2026.
-- date: 2025-04
-  text: Paper Astral accepted by SIGCOMM 2025.
-- date: 2025-04
-  text: Paper Hermes accepted by ATC 2025.
-- date: 2025-04
-  text: Award — PrioPlus named EuroSys 2025 Best Student Paper.
-- date: 2024-12
-  text: One paper accepted by INFOCOM 2025.
-- date: 2024-08
-  text: BifrostX accepted by TON.
-- date: 2024-07
-  text: Pyrrha and P4RTC accepted by NSDI 2025.
+- date: 2025-10
+  category: Award
+  text: I am honored to receive the 2025 ACM SIGCOMM China Rising Star Award, ranking first among three recipients nationwide.
+# - date: 2025-07
+#   category: Paper
+#   text: BIAN accepted by SIGCOMM 2025.
+# - date: 2025-06
+#   category: Paper
+#   text: Sectric accepted by VLDB 2025.
+# - date: 2025-05
+#   category: Paper
+#   text: HotPrefix accepted by SIGMOD 2026.
+# - date: 2025-04
+#   category: Paper
+#   text: Astral accepted by SIGCOMM 2025.
+# - date: 2025-04
+#   category: Paper
+#   text: Hermes accepted by ATC 2025.
+# - date: 2025-04
+#   category: Award
+#   text: PrioPlus named EuroSys 2025 Best Student Paper.
+# - date: 2024-12
+#   category: Paper
+#   text: One paper accepted by INFOCOM 2025.
+# - date: 2024-08
+#   category: Paper
+#   text: BifrostX accepted by TON.
+# - date: 2024-07
+#   category: Paper
+#   text: Pyrrha and P4RTC accepted by NSDI 2025.
 
 
