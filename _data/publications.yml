@@ -1,46 +1,46 @@
-- authors: "Qingkai Meng, Hao Zheng, Zhenhui Zhang, ChonLam Lao, Chengyuan Huang, Baojia Li, Ziyuan Zhu, Hao Lu, Weizhen Dang, Zitong Lin, Weifeng Zhang, Lingfeng Liu, Yuanyuan Gong, Chunzhi He, Xiaoyuan Hu, Yinben Xia, Xiang Li, Zekun He, Yachen Wang, Xianneng Zou, Kun Yang, Gianni Antichi, Guihai Chen, Chen Tian"
+- authors: "<b>Qingkai Meng</b>, Hao Zheng, Zhenhui Zhang, ChonLam Lao, Chengyuan Huang, Baojia Li, Ziyuan Zhu, Hao Lu, Weizhen Dang, Zitong Lin, Weifeng Zhang, Lingfeng Liu, Yuanyuan Gong, Chunzhi He, Xiaoyuan Hu, Yinben Xia, Xiang Li, Zekun He, Yachen Wang, Xianneng Zou, Kun Yang, Gianni Antichi, Guihai Chen, Chen Tian"
   title: "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale"
   venue: "ACM SIGCOMM"
   venue_full: "ACM Special Interest Group on Data Communication"
   rank: "CCF-A"
   year: 2025
 
-- authors: "Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, and Yang Zhou"
+- authors: "Zhongjie Chen, <b>Qingkai Meng</b>, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, and Yang Zhou"
   title: "eTran: Extensible Kernel Transport with eBPF"
   venue: "NSDI"
   venue_full: "USENIX Symposium on Networked Systems Design and Implementation"
   rank: "CCF-A"
   year: 2025
 
-- authors: "Zhongjie Chen, Yingchen Fan, Kun Qian, Qingkai Meng, Ran Shu, Xiaoyu Li, Yiran Zhang, Bo Wang, Wei Li, and Fengyuan Ren"
+- authors: "Zhongjie Chen, Yingchen Fan, Kun Qian, <b>Qingkai Meng</b>, Ran Shu, Xiaoyu Li, Yiran Zhang, Bo Wang, Wei Li, and Fengyuan Ren"
   title: "ScalaTap: Scalable Outbound Rate Limiting in Public Cloud"
   venue: "INFOCOM"
   venue_full: "IEEE International Conference on Computer Communications"
   rank: "CCF-A"
   year: 2025
 
-- authors: "Qingkai Meng, Shan Zhang, Zhiyuan Wang, Tao Tong, Chaolei Hu, Hongbin Luo, and Fengyuan Ren"
+- authors: "<b>Qingkai Meng</b>, Shan Zhang, Zhiyuan Wang, Tao Tong, Chaolei Hu, Hongbin Luo, and Fengyuan Ren"
   title: "BCC: Re-architecting Congestion Control in DCNs"
   venue: "INFOCOM"
   venue_full: "IEEE International Conference on Computer Communications"
   rank: "CCF-A"
   year: 2024
 
-- authors: "Qingkai Meng, Yiran Zhang, Chaolei Hu, Bo Wang, and Fengyuan Ren"
+- authors: "<b>Qingkai Meng</b>, Yiran Zhang, Chaolei Hu, Bo Wang, and Fengyuan Ren"
   title: "Explicit Dropping Notification in Data Centers"
   venue: "INFOCOM"
   venue_full: "IEEE International Conference on Computer Communications"
   rank: "CCF-A"
   year: 2024
 
-- authors: "Qingkai Meng, Yiran Zhang, Shan Zhang, Zhiyuan Wang, Tong Zhang, Hongbin Luo, and Fengyuan Ren"
+- authors: "<b>Qingkai Meng</b>, Yiran Zhang, Shan Zhang, Zhiyuan Wang, Tong Zhang, Hongbin Luo, and Fengyuan Ren"
   title: "Switch-assistant Loss Recovery for RDMA Transport Control"
   venue: "ToN"
   venue_full: "IEEE/ACM Transactions on Networking"
   rank: "CCF-A"
   year: 2024
 
-- authors: "Yiran Zhang, *Qingkai Meng*, Chaolei Hu, and Fengyuan Ren"
+- authors: "Yiran Zhang, <b><b>Qingkai Meng</b></b>, Chaolei Hu, and Fengyuan Ren"
   title: "Revisiting Congestion Control for Lossless Ethernet"
   venue: "NSDI"
   venue_full: "USENIX Symposium on Networked Systems Design and Implementation"
@@ -48,7 +48,7 @@
   year: 2024
   # notes: "#: corresponding author"
 
-- authors: "Tao Tong, Qingkai Meng#, Shan Zhang, Zhiyuan Wang, and Hongbin Luo"
+- authors: "Tao Tong, <b>Qingkai Meng</b>#, Shan Zhang, Zhiyuan Wang, and Hongbin Luo"
   title: "When Parallel Permissioned Blockchain Meets Network Congestion in Datacenters"
   venue: "NSDI Poster"
   venue_full: "USENIX Symposium on Networked Systems Design and Implementation"
@@ -56,14 +56,14 @@
   year: 2024
   # notes: "#: corresponding author"
 
-- authors: "Zhongjie Chen, Qingkai Meng#, Yiran Zhang, and Fengyuan Ren"
+- authors: "Zhongjie Chen, <b>Qingkai Meng</b>#, Yiran Zhang, and Fengyuan Ren"
   title: "Predictable Host Networking in Data Centers: Challenges, Technologies and Future Directions"
   venue: "IEEE Network Magazine"
   rank: "SCI Q1"
   year: 2024
   # notes: "#: corresponding author"
 
-- authors: "Yiran Zhang, Qingkai Meng#, Yifan Liu, and Fengyuan Ren"
+- authors: "Yiran Zhang, <b>Qingkai Meng</b>#, Yifan Liu, and Fengyuan Ren"
   title: "Revisiting Congestion Detection in Lossless Networks"
   venue: "ToN"
   venue_full: "IEEE/ACM Transactions on Networking"
@@ -71,7 +71,7 @@
   year: 2023
   # notes: "#: corresponding author"
 
-- authors: "Zhiyuan Wang*, Qingkai Meng*, Shan Zhang, and Hongbin Luo"
+- authors: "Zhiyuan Wang*, <b>Qingkai Meng</b>*, Shan Zhang, and Hongbin Luo"
   title: "The Power of Age-based Reward in Fresh Information Acquisition"
   venue: "INFOCOM"
   venue_full: "IEEE International Conference on Computer Communications"
@@ -79,35 +79,35 @@
   year: 2023
   # notes: "*: co-first author"
 
-- authors: "Qingkai Meng, Fengyuan Ren, Tong Zhang, Danfeng Shan, and Yajun Yang"
+- authors: "<b>Qingkai Meng</b>, Fengyuan Ren, Tong Zhang, Danfeng Shan, and Yajun Yang"
   title: "Demystifying and Mitigating TCP Capping"
   venue: "IWQoS"
   venue_full: "IEEE/ACM International Symposium on Quality of Service"
   rank: "CCF-B"
   year: 2022
 
-- authors: "Wei Li, Xiaohui Luo, Yiran Zhang, Qingkai Meng, and Fengyuan Ren"
+- authors: "Wei Li, Xiaohui Luo, Yiran Zhang, <b>Qingkai Meng</b>, and Fengyuan Ren"
   title: "CrossDBT: An LLVM-Based User-Level Dynamic Binary Translation Emulator"
   venue: "Euro-Par"
   venue_full: "Springer European Conference on Parallel Processing"
   rank: "CCF-B"
   year: 2022
 
-- authors: "Qingkai Meng, and Fengyuan Ren"
+- authors: "<b>Qingkai Meng</b>, and Fengyuan Ren"
   title: "Lightning: A Practical Building Block for RDMA Transport Control"
   venue: "IWQoS"
   venue_full: "IEEE/ACM International Symposium on Quality of Service"
   rank: "CCF-B"
   year: 2021
 
-- authors: "Qingkai Meng, Kun Qian, Wenxue Cheng, and Fengyuan Ren"
+- authors: "<b>Qingkai Meng</b>, Kun Qian, Wenxue Cheng, and Fengyuan Ren"
   title: "RBA: Adaptive TCP Receive Buffer Sizing"
   venue: "ISCC"
   venue_full: "IEEE Symposium on Computers and Communications"
   rank: "CCF-C"
   year: 2021
 
-- authors: "Yiran Zhang, Yifan Liu, Qingkai Meng, and Fengyuan Ren"
+- authors: "Yiran Zhang, Yifan Liu, <b>Qingkai Meng</b>, and Fengyuan Ren"
   title: "Congestion Detection in Lossless Networks"
   venue: "SIGCOMM"
   venue_full: "ACM Special Interest Group on Data Communication"
