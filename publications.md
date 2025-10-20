@@ -6,11 +6,18 @@ permalink: /publications/
 
 <section class="card">
   <h2>Publications</h2>
-  <ul class="pub-list">
+  <div class="pub-list">
     {% for p in site.data.publications %}
-      <li>{{ p.title }}, {{ p.venue }} {{ p.year }}</li>
+      <div class="pub-item">
+        <p class="pub-authors">{{ p.authors }}</p>
+        <p class="pub-title">"{{ p.title }}"</p>
+        <p class="pub-venue">
+          {% if p.venue_full %}{{ p.venue_full }} ({{ p.venue }}{% if p.rank %}, {{ p.rank }}{% endif %}){% else %}{{ p.venue }}{% if p.rank %} ({{ p.rank }}){% endif %}{% endif %}, {{ p.year }}
+          {% if p.notes %}<br><span class="pub-notes">{{ p.notes }}</span>{% endif %}
+        </p>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </section>
 
 
