@@ -10,7 +10,13 @@ permalink: /publications/
     {% for p in site.data.publications %}
       <div class="pub-item">
         <p class="pub-authors">{{ p.authors }}</p>
-        <p class="pub-title">"{{ p.title }}"</p>
+        <p class="pub-title">
+          {% if p.pdf %}
+            <a href="{{ p.pdf | relative_url }}" target="_blank">"{{ p.title }}"</a>
+          {% else %}
+            "{{ p.title }}"
+          {% endif %}
+        </p>
         <p class="pub-venue">
           {% if p.venue_full %}{{ p.venue_full }} ({{ p.venue }}{% if p.rank %}, {{ p.rank }}{% endif %}){% else %}{{ p.venue }}{% if p.rank %} ({{ p.rank }}){% endif %}{% endif %}, {{ p.year }}
           {% if p.notes %}<br><span class="pub-notes">{{ p.notes }}</span>{% endif %}
