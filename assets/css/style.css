@@ -7,10 +7,11 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
 /* Header */
 .site-header{background:#fff;border-bottom:none;padding:10px 0}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
-.brand{color:var(--text);text-decoration:none;font-weight:700;font-size:1.2rem}
-.nav{display:flex;gap:15px}
-.nav a{color:var(--text);text-decoration:none;padding:5px 10px;background:none;border:none}
-.nav a:hover{color:var(--link-hover)}
+.brand{color:var(--text);text-decoration:none;font-weight:700;font-size:1.3rem}
+.nav{display:flex;gap:20px}
+.nav a{color:var(--text);text-decoration:none;padding:8px 15px;background:none;border:none;font-size:1.1rem;font-weight:500;transition:all 0.2s ease}
+.nav a:hover{color:var(--link-hover);background:#f5f5f5;border-radius:4px}
+.nav a.active{color:var(--link-hover);font-weight:600;text-decoration:underline}
 
 /* Sections */
 .card{background:transparent;border:none;padding:30px 0;margin:0}
